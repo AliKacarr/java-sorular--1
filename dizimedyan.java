@@ -7,6 +7,8 @@ public class dizimedyan {
 			dizi[i]=(int) (Math.random()*101); //max 100 olacak şekilde elemanları random atadı.
 			
 		}
+                java.util.Arrays.sort(dizi);
+
 		if(random%2==0) { //eleman sayısı çiftse ortadaki sayıların ort yazdır
 			System.out.println((dizi[random/2]+dizi[random/2-1])/2.0);
 		}
